@@ -23,7 +23,12 @@ nav button{
     background-color: white;
     color: black;
     border: black 2 px solid;
-    
+}
+.btn-add-contact{
+    padding: 5px 10px;
+    background-color: white;
+    color: black;
+    border: black 2 px solid;  
 }
 search input {
     background-color: var(--searchbar-back-color);
@@ -42,10 +47,10 @@ search input {
 
 }
 .input-group{
-    width: 90% !important;
-    
+    width: 45% !important;
+    height: fit-content;
 
-}
+} 
 .form-control{
     border: #363B7B solid 2px !important;
 
@@ -55,6 +60,7 @@ search input {
     padding-top: 30px;
 }
 .right-side,.left-side{
+    padding: 20px;
     background-color: #5a5e8e05;
 }
 
@@ -98,3 +104,9 @@ search input {
    height: 20px;
    width: 20px;
 }
+
+#display-empty img {
+width: 40% !important;
+height: 50% !important;    
+}
+
