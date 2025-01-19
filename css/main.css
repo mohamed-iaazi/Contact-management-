@@ -52,7 +52,7 @@ search input {
 
 } 
 .form-control{
-    border: #363B7B solid 2px !important;
+    /* border: #363B7B solid 2px !important; */
 
 }
 
@@ -110,3 +110,14 @@ width: 40% !important;
 height: 50% !important;    
 }
 
+button:hover {
+    background-color: #363b7b2b;
+    border: none;
+    color: black;
+}
+span{
+    color: red;
+}
+.form-control:focus {
+    border: 3px solid rgb(78, 182, 238);
+}

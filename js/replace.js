@@ -1,12 +1,19 @@
 
-const item_selected = document.getElementById("ajouter");
-item_selected.addEventListener('click' ,function () {
-    fetch('ajouter.html')
-    .then(response =>
-        response.text())
-        .then(html => {
-     document.getElementById("placeholder").innerHTML=html;
-        });
 
-    
-});
+
+
+<!-- end of left side  -->
+            <span class="lineh p-0 d-none  d-lg-inline-block"></span>
+
+
+
+
+
+
+
+
+
+
+
+
+
